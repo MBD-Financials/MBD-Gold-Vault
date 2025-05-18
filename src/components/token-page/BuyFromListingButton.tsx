@@ -71,7 +71,7 @@ export default function BuyFromListingButton(props: Props) {
 					const transaction = buyFromListing({
 						contract: marketplaceContract,
 						listingId: listing.id,
-						quantity: listing.quantity,
+						quantity: 1n,
 						recipient: account.address,
 					});
 					console.log(transaction);
