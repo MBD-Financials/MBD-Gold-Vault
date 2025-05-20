@@ -211,7 +211,7 @@ export default function Home() {
                 <Spinner color="purple.200" />
               ) : metal.price ? (
                 <>
-                  <Text fontSize="2xl" fontWeight="bold" color={metal.color} textShadow={`0 0 15px ${metal.shadow}`}>${(metal.price * 1.1).toFixed(2)} / g</Text>
+                  <Text fontSize="2xl" fontWeight="bold" color={metal.color} textShadow={`0 0 15px ${metal.shadow}`}>${(metal.price * 1.2).toFixed(2)} / g</Text>
                   <Text fontSize="xs" color="gray.400" mt="1">Next update in: {secondsRemaining}s</Text>
                 </>
               ) : (
@@ -226,7 +226,7 @@ export default function Home() {
 
         <SimpleGrid columns={[1, 2, 3, 4]} spacing="8" mb="12">
           {goldTiers.map((tier, index) => {
-            const priceWithTopup = goldPricePerGram ? goldPricePerGram * tier.weight * 1.1 : null;
+            const priceWithTopup = goldPricePerGram ? goldPricePerGram * tier.weight * 1.2 : null;
             return (
               <MotionBox
                 key={tier.weight}
