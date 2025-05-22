@@ -262,7 +262,7 @@ export default function Home() {
           })}
         </SimpleGrid>
 
-        <Heading as="h1" size="2xl" textAlign="center" mb="8" fontWeight="extrabold" color="purple.300" textShadow="0 0 20px #9f7aea" animation={`${glitch} 1s infinite`}>Gold Backed NFT Collections</Heading>
+        <Heading as="h1" size="2xl" textAlign="center" mb="8" fontWeight="extrabold" color="purple.300" textShadow="0 0 20px #9f7aea" animation={`${glitch} 1s infinite`}>Gold-Themed NFT Collections</Heading>
 
         {NFT_CONTRACTS && NFT_CONTRACTS.length > 0 ? (
           <SimpleGrid columns={[1, 2, 3, 4]} spacing="8">
@@ -317,7 +317,9 @@ export default function Home() {
     <a href="/privacy" style={{ color: "#9f7aea", textDecoration: "underline" }}>Privacy Policy</a>
     <a href="/refund" style={{ color: "#9f7aea", textDecoration: "underline" }}>Refund Policy</a>
   </HStack>
-
+<Text fontSize="xs" color="gray.400" mt="8" textAlign="center">
+  Disclaimer: These NFTs are digital collectibles with optional third-party utility features. They do not represent ownership of physical gold or any financial instrument. Redemption and benefits are subject to KYC and external approval.
+</Text>
   <Text fontSize="sm" color="gray.400">
     © {new Date().getFullYear()} MBD Financials. All rights reserved.
   </Text>

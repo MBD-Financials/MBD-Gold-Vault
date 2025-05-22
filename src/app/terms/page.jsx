@@ -1,4 +1,5 @@
 "use client";
+
 import { Box, Heading, Text, VStack, Link } from "@chakra-ui/react";
 
 export default function TermsPage() {
@@ -11,30 +12,34 @@ export default function TermsPage() {
       <VStack spacing={6} align="start">
         <Text><strong>Effective Date:</strong> 05-09-2025</Text>
 
-        <Text><strong>1. Introduction & Acceptance:</strong> By purchasing a gold-backed NFT issued by MBD Financials ("we," "us," or "our"), you ("you," "your," or "purchaser") acknowledge that you have read, understood, and agreed to these Terms and Conditions. These terms constitute a binding agreement between you and MBD Financials.</Text>
+        <Text><strong>1. Acceptance:</strong> By minting or purchasing a gold-access NFT offered through MBD Financials (“we”, “us”, “our”), you agree to these Terms and Conditions. These terms apply to all users of our platform and participants in NFT-based redemption or other utility features.</Text>
 
-        <Text><strong>2. Product Description:</strong> Each NFT represents a digitally verifiable claim to a specific weight of physical gold (1 gram, 5 grams, or 10 grams), securely stored in an Allocated Metal Account managed by Indigo Precious Metals at Le Freeport, Singapore. These NFTs are minted on the blockchain and are tied to the physical gold until redeemed.</Text>
+        <Text><strong>2. Product Scope:</strong> Each NFT is a blockchain-based digital collectible that may include access to optional utility features. These may be associated with a defined quantity of physical gold (e.g., 1g, 5g, 10g), stored and insured by Indigo Precious Metals at Le Freeport, Singapore. MBD Financials does not custody, sell, or guarantee delivery of physical gold.</Text>
 
-        <Text><strong>3. Payment Terms:</strong> All purchases must be made in Ethereum (ETH) through the official MBD minting platform. Pricing will be dynamic and determined by the current spot price of gold plus any applicable minting and service fees. Once an NFT is minted and issued, the transaction is final and non-refundable.</Text>
+        <Text><strong>3. Payment Terms:</strong> Minting is processed via Ethereum (ETH) smart contracts on supported blockchain networks. Pricing may reflect live gold market conditions, gas fees, and platform fees. All sales are final once transactions are confirmed on-chain.</Text>
 
-        <Text><strong>4. Storage Terms:</strong> Each gold-backed NFT includes three (3) years of secure, insured storage of the corresponding physical gold, held at Le Freeport, Singapore. After this initial period, holders may be subject to storage fees. You will receive prior notice of any applicable storage fees.</Text>
+        <Text><strong>4. Storage Structure:</strong> Physical gold allocations are managed by Indigo Precious Metals under their vault program. Storage is insured and valid for three (3) years. After that period, additional storage fees may apply. MBD Financials is not responsible for the storage, maintenance, or custody of the associated gold.</Text>
 
-        <Text><strong>5. Redemption Terms:</strong> Redemption of physical gold is permitted after twelve (12) months from the NFT's minting date. Redemption is only available through our official platform and is subject to successful Know Your Customer (KYC) verification. Applicable fees, including but not limited to transportation, handling, and insurance, must be paid by the NFT holder at the time of redemption. MBD reserves the right to reject redemption requests if the holder fails KYC verification or if other regulatory or compliance issues arise.</Text>
+        <Text><strong>5. Redemption Policy:</strong> Redemption of any associated gold is optional and only available after twelve (12) months from the NFT minting date. It is contingent on successful KYC verification and approval by Indigo Precious Metals. Redemption may involve extra fees (e.g., shipping, compliance, handling) paid by the user. MBD does not guarantee redemption and does not fulfill physical delivery directly.</Text>
 
-        <Text><strong>6. KYC & Compliance:</strong> To redeem your NFT for physical gold, you must complete KYC verification. Required documentation may include but is not limited to, a government-issued ID, proof of address, and other legally required information. Your personal data will be processed and stored in accordance with applicable data protection laws.</Text>
+        <Text><strong>6. KYC & Compliance:</strong> If you choose to redeem your NFT utility, you must complete Know Your Customer (KYC) verification through third-party partners. This may include providing valid identification and proof of address. KYC data is not stored by MBD and is processed by regulated verification providers.</Text>
 
-        <Text><strong>7. Risk Disclosure:</strong> Ownership of gold-backed NFTs carries inherent risks, including market volatility, regulatory changes, blockchain-specific risks (such as smart contract vulnerabilities), and potential loss of digital assets. We do not guarantee liquidity or resale value. By participating, you acknowledge these risks.</Text>
+        <Text><strong>7. Risks & Disclaimers:</strong> NFTs issued on our platform are speculative and experimental in nature. We do not guarantee price appreciation, liquidity, utility redemption, or platform availability. Users accept the inherent risks of using blockchain-based technology, including network congestion, smart contract vulnerabilities, and regulatory uncertainty.</Text>
 
-        <Text><strong>8. Transfer & Secondary Market:</strong> Gold-backed NFTs may be transferred or resold via secondary markets. However, physical gold redemption rights only apply to the verified owner who completes KYC. Secondary holders must agree to these Terms and Conditions to redeem the NFT for gold.</Text>
+        <Text><strong>8. Transfer & Resale:</strong> NFTs may be transferred or resold via third-party marketplaces. Redemption rights are not guaranteed to secondary holders and require completion of KYC verification and acceptance of these Terms. MBD is not responsible for issues arising from secondary market activity.</Text>
 
-        <Text><strong>9. Limitation of Liability:</strong> MBD Financials and its partners are not liable for any indirect, incidental, special, or consequential damages arising from your purchase, storage, transfer, or redemption of gold-backed NFTs. We disclaim all liability for delays or disruptions caused by blockchain networks, smart contract failures, or force majeure events.</Text>
+        <Text><strong>9. Limitation of Liability:</strong> MBD Financials, its affiliates, and partners shall not be liable for any indirect, incidental, special, or consequential damages, including lost profits, loss of data, platform downtime, failed redemptions, or technical errors, whether arising in contract, tort, or otherwise.</Text>
 
-        <Text><strong>10. Governing Law & Dispute Resolution:</strong> These Terms shall be governed by and construed in accordance with the laws of Singapore. Any disputes arising from or relating to these Terms shall be resolved through binding arbitration or courts located in Singapore.</Text>
+        <Text><strong>10. Governing Law & International Use:</strong> These Terms are governed by the laws of Singapore. Users accessing our services from outside Singapore are responsible for ensuring compliance with their local regulations. Disputes shall be resolved via arbitration or court proceedings in Singapore.</Text>
 
-        <Text><strong>11. Amendments:</strong> MBD Financials reserves the right to update or modify these Terms at any time. Continued use or holding of the NFT after such changes constitutes acceptance of the new Terms.</Text>
+        <Text><strong>11. Amendments:</strong> We reserve the right to update these Terms at any time. Changes will be posted to our website. Continued use of our platform or NFT ownership following updates constitutes acceptance of the revised Terms.</Text>
+
+        <Text><strong>12. No Financial or Investment Advice:</strong> The NFTs offered by MBD Financials are digital collectibles and are not securities, commodities, or investment contracts. Nothing on our platform constitutes investment, legal, or tax advice. Users are solely responsible for evaluating risks and making decisions accordingly.</Text>
+
+        <Text><strong>13. Eligibility & Age Requirement:</strong> Our services are intended for individuals who are at least 18 years old. By using our platform, you confirm that you meet this requirement. We do not knowingly collect or process data from minors.</Text>
 
         <Text>
-          <strong>Contact:</strong> For inquiries, support, or KYC guidance, please contact our official support team at{" "}
+          <strong>14. Contact:</strong> For support, legal, or compliance inquiries, contact us at{" "}
           <Link href="mailto:info@mbdfinancials.com" color="purple.200" isExternal>
             info@mbdfinancials.com
           </Link>.
